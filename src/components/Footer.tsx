@@ -22,9 +22,9 @@ const Footer = () => {
           </div>
           
           <div className="footer-social">
-            <a href="https://www.linkedin.com/in/sanjay-gummadi01/" className="social-icon">LinkedIn</a>
-            <a href="#" className="social-icon">Github</a>
-            <a href="https://www.instagram.com/iam__sanjay1?igsh=YW8zc2xjMnhtZHp1" className="social-icon">Instagram</a>
+            <a href="https://www.linkedin.com/in/sanjaygummadi-dev" className="social-icon">LinkedIn</a>
+            <a href="https://github.com/sanjaygummadi01" className="social-icon">Github</a>
+            <a href="https://www.instagram.com/the_mzic?igsh=MTdhazR0bHVydnJidg==" className="social-icon">Instagram</a>
           </div>
         </div>
         

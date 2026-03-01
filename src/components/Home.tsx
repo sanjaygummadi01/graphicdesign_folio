@@ -1,4 +1,4 @@
-import React from 'react';
+// import React from 'react';
 import '../styles/animations.css';
 import '../styles/home-layout.css';
 import '../styles/background-text.css';
@@ -16,7 +16,7 @@ const Home = () => {
         <div className="profile-image-container floating">
           <div className="profile-image">
             <img 
-              src="./logos/profile.jpg" 
+              src="./logos/hero-portrait.png" 
               alt="Profile" 
             />
           </div>
@@ -49,9 +49,9 @@ const Home = () => {
         </div>
       </div>
       
-      <div className="scroll-indicator">
+      {/* <div className="scroll-indicator">
         <div className="scroll-arrow"></div>
-      </div>
+      </div> */}
     </section>
   );
 };

@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://sanjaygummadi.github.io/graphic-designpo",
+  "homepage": "https://sanjaygummadi.github.io/graphicdesign_folio",
 
   "scripts": {
     "dev": "vite",

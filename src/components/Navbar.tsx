@@ -39,7 +39,7 @@ const Navbar: React.FC<NavbarProps> = ({ activeSection }) => {
     <nav className={`navbar ${isScrolled ? 'scrolled' : ''}`}>
       <div className="nav-container">
         <div className="nav-logo">
-          <span onClick={() => scrollToSection('home')}>Portfolio</span>
+          <span onClick={() => scrollToSection('home')}>SANJAY</span>
         </div>
         
         <div className={`nav-menu ${isMobileMenuOpen ? 'active' : ''}`}>

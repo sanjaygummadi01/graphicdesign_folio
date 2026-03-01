@@ -27,7 +27,13 @@ const Contact = () => {
     if (!form.current) return;
 
     emailjs
-      .sendForm('portfolio01', 'template_17ez8c7', form.current, 'wbjESy3d-PqvY9j8Q')
+      emailjs
+  .sendForm(
+    'service_rtadf15',
+    'template_fpvw7fn',
+    form.current,
+    'RS2keAMyHWcYSCged'
+  )
       .then(
         () => {
           alert('Message sent successfully!');
@@ -65,7 +71,7 @@ const Contact = () => {
                 <span className="contact-icon">📧</span>
                 <div>
                   <h4>Email</h4>
-                  <p>sanjaygummadi362@gmail.com</p>
+                  <p>sanjaygummadi.devr@gmail.com</p>
                 </div>
               </div>
               <div className="contact-item">
@@ -82,13 +88,6 @@ const Contact = () => {
                   <p>Hydrebad</p>
                 </div>
               </div>
-            </div>
-
-            <div className="social-links">
-              <a href="https://www.linkedin.com/in/sanjay-gummadi01/" className="social-link">LinkedIn</a>
-              <a href="#" className="social-link">Github</a>
-              {/* <a href="#" className="social-link">Dribbble</a> */}
-              <a href="https://www.instagram.com/iam__sanjay1?igsh=YW8zc2xjMnhtZHp1" className="social-link">Instagram</a>
             </div>
           </div>
 
